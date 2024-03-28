@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	width: 100%;height: 50px;background-color:aqua
+}
+*{box-sizing: border-box}
+.box{
+	width: 100px;height: auto
+}
+.img100{
+	width: 100%;height: auto;padding-top: 15px
+}
+.menu{
+	padding-top: 15px
+}
+.menu ul{
+	margin: 0;padding: 0;list-style: none;display: flex;
+}
+.menu ul li a{
+	padding: 10px 20px;text-decoration: none;color: #4D4D4D
+}
+.menu ul li a:hover{
+	background-color: darkred;color: white;border-radius: 50px
+}
+.container{
+	width: 100%;
+}
+body{
+	margin: 0
+}
+.gach-chan{
+	border-bottom: 2px solid #7C1416
+}
+.text-do{
+	color: red
+}
+.vien{
+	width: 100%;border: 1px solid darkred;padding: 10px;position: relative;overflow: hidden
+}
+.icon{
+	position: absolute;width: 80%;height: 40px;left: 10%;top: -15%;display: flex;justify-content: space-around;transition: all 1s
+}
+.icon a{
+	width: 40px;height: 40px;background-color: white;border-radius: 50%;display: flex;justify-content: center;align-items: center;text-decoration: none;color: darkred
+}
+.icon a:hover{
+	background-color: darkred;color: white
+}
+.vien:hover .icon{
+	top: 30%
+}
+.banner{
+	width: 100%;min-height: 400px;background-color: antiquewhite
+}
+main{
+	width: 100%;min-height: 500px
+}
+#feature{
+	width: 100%;min-height: 600px;background-image: url("../image/bg2.png");background-repeat: no-repeat;background-size: cover;background-position: bottom center
+}
+.pt-30{
+	padding-top: 30px
+}
+.vien-trang{
+	width: 100%;min-height: 100px;border: 1px solid white;padding: 20px
+}
+.text-do{
+	color: darkred
+}
+#feature a{
+	text-decoration: none;color: darkred
+}
+#feature a:hover{
+	color: #47CABE
+}
+#contact{
+	width: 100%;min-height: 600px;background-image: url("../image/Banner2.png");background-repeat: no-repeat;background-size: cover;background-position: center center
+}
+.shadow{
+	border: 1px solid gray;width: 100%;min-height: 300px;box-shadow: 5px 5px 5px gray;padding: 30px
+}
+.form-control{
+	padding: 8px;width: 100%;margin-bottom: 10px
+}
+#blog{
+	width: 100%;min-height: 600px;background-color: white
+}
+.text-center{
+	color: #545454
+}
